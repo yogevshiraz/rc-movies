@@ -16,7 +16,7 @@ export default function AddMovie(props) {
         <input type="text" placeholder='year' onChange={(e) => { setyear(e.target.value) }}/>
         <input type="text" placeholder='Image src' onChange={(e) => { setImage(e.target.value) }}/>
         <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder='Description'onChange={(e) => { setDesc(e.target.value) }}/>
-        <Link to={'/'}><button onClick={()=>{props.add(name,desc,image,year)}} id='btnadd'>Add</button></Link>
+        <Link to={'/'}><button onClick={()=>{props.add(name,desc,image,year)}} id='btnaddm'>Add</button></Link>
     </div>
   )
 }
