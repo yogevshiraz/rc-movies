@@ -4,8 +4,9 @@ import Movie from '../components/Movie';
 import '../style/home.css';
 import Logo from '../op37.svg'
 import motion from "framer-motion"
+import { useNavigate } from 'react-router-dom'
 export default function Home(props) {
-
+    const nav = useNavigate()
     const [inp, setInp] = useState(String)
 
     const filteredMovies = () => {
@@ -59,6 +60,7 @@ export default function Home(props) {
 
     return (
         <div className='home' >
+            <button onClick={()=>{nav('/addmovie')}} id='btnadd'>Add movie</button>
             <input type="text" id='inps' onChange={(e) => { setInp(e.target.value) }} placeholder='search' />
             <h1>top 3</h1>
             <div id='top'>

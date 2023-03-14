@@ -51,7 +51,7 @@ function App() {
 
   const addMovie = (name, desc, image, year) => {
     let newMovie = new Movies(name, desc, image, year)
-    setMoives([newMovie, ...movies])
+    setMoives([ ...movies,newMovie])
 
 
 
