@@ -1,0 +1,29 @@
+#btnimg{
+
+width:  20px;
+height: 10px;
+background-color: rgba(255, 228, 196, 0);
+border: 0px;
+position: relative;
+right: 47%;
+top: 40px;
+font-size:25px;
+font-weight: 600;
+color: rgb(67, 139, 22);
+font-family: Courier New;
+}
+#img{
+    width:  85px;
+    height: 85px; 
+}
+
+
+
+
+.btnr:hover {
+    background-color: rgb(67, 139, 22);
+}
+
+.btnr:active {
+    background-color: rgb(28, 81, 7);
+}

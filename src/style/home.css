@@ -1,0 +1,75 @@
+.home{
+    background-color: #2d3038;
+    padding: 20px;
+
+}
+body{
+    background-color: #2d3038;
+}
+.movies{
+    background-position: 25% 75%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2d3038;
+    margin-top: 80px;
+}
+ h1{
+    margin-top: -40px;
+    font-size: 50px;
+ }
+
+ #inps{
+
+    width: 200px;
+    height: 30px;
+    position: relative;
+    border: 0px;
+    border-radius: 10px;
+    left: 41%;
+    transition: 0.3s;
+    color: aliceblue;
+    background-color:rgb(28, 81, 7) ; 
+    
+ }
+ #inps::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(255, 255, 255, 0.655);
+    opacity: 1; /* Firefox */
+    position: relative;
+left: 40%;
+
+  }
+
+ #inps:hover{
+    background-color:rgb(67, 139, 22) ; 
+    color: aliceblue;
+ }
+ #inps:focus{
+    color: aliceblue;
+    background-color:rgb(28, 81, 7) ; 
+ }
+
+#cuc {
+    opacity: 0.3;
+    transform: scaleX(-1);
+    z-index: -1;
+ width: 500px;
+ }
+ .cuc{
+   
+        position: absolute;
+    right: 70%;
+
+ }
+
+ #top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 30%;
+
+    width: 40%;
+ }
