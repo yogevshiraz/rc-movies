@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/rc-movies/static/css/main.bffcdcb3.css",
+    "main.js": "/rc-movies/static/js/main.148cfc9d.js",
+    "static/js/787.b48256c9.chunk.js": "/rc-movies/static/js/787.b48256c9.chunk.js",
+    "static/media/logorc.svg": "/rc-movies/static/media/logorc.8e35259e92666377a1b72f026a1a0492.svg",
+    "static/media/op37.svg": "/rc-movies/static/media/op37.ffd86f941c1f64b6a0bf9fde01002c0d.svg",
+    "index.html": "/rc-movies/index.html",
+    "main.bffcdcb3.css.map": "/rc-movies/static/css/main.bffcdcb3.css.map",
+    "main.148cfc9d.js.map": "/rc-movies/static/js/main.148cfc9d.js.map",
+    "787.b48256c9.chunk.js.map": "/rc-movies/static/js/787.b48256c9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bffcdcb3.css",
+    "static/js/main.148cfc9d.js"
+  ]
+}
